@@ -1,0 +1,26 @@
+body {
+  background-color: rgba(0, 0, 0, 0.801);
+}
+.App {
+  position: relative;
+}
+.logo-App {
+  margin-top: 10rem;
+}
+.logo-App h1 {
+  font-size: 100px;
+  padding: 30px;
+  color: rgb(217, 222, 226);
+  font-family: "Protest Guerrilla", sans-serif;
+}
+.logo-App h2 {
+  padding: 0 80px;
+  font-size: 60px;
+  font-family: "Mr Dafoe", cursive;
+  color: white;
+}
+.logo-App h4 {
+  padding: 0 170px;
+  font-family: "Mr Dafoe", cursive;
+  color: white;
+}

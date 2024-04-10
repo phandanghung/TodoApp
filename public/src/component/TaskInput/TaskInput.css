@@ -1,0 +1,12 @@
+form {
+  padding: 0px 30px;
+}
+input[type="text"] {
+  border-radius: 10px;
+  border-radius: 10px;
+  margin-right: 5px;
+  border: 1px;
+}
+button {
+  border-radius: 10px;
+}

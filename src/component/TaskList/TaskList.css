@@ -1,0 +1,39 @@
+h2.TaskInput-logo {
+  color: black !important;;
+}
+.task.d-flex {
+  background-color: #cdd3d3;
+}
+.TaskList {
+  padding-bottom: 10px;
+}
+h3.TaskList-logo {
+  padding: 5px;
+}
+span.uncomplete {
+  font-size: 30px;
+  padding-left: 10px;
+}
+span.completed.text-muted {
+  font-size: 30px;
+  text-decoration: line-through;
+  padding-left: 10px;
+}
+.task {
+  border-radius: 3px;
+  margin: 8px 0px;
+  background-color: rgb(196, 196, 196);
+  position: relative;
+}
+.taskActions{
+  position: absolute;
+  right: 0;
+  top: 10px;
+  display: none;
+}
+.task:hover .taskActions {
+  display: inline-block;
+}
+input.checkbox {
+  margin-left: 5px;
+}

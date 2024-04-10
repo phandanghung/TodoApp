@@ -1,0 +1,20 @@
+.todoList{
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  border-radius: 5px;
+  margin: 30px 0px 80px 0px;
+
+}
+.todoList.container {
+  margin: 81px 0px;
+}
+.Container h2 {
+  padding: 15px;
+  color: rgb(139, 32, 139);
+}
+h3 {
+  color: black;
+}
+
+
+

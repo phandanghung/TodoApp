@@ -1,0 +1,19 @@
+.todoList.d-flex.justify-content-around {
+  position: relative;
+  right: 30px;
+  top: 144px;
+  background-color: rgb(182, 182, 182);
+  width: 100%;
+  border-radius: 50px;
+}
+.Container {
+  padding: 50px;
+}
+.Container h2 {
+  padding: 15px;
+  color: rgb(139, 32, 139);
+}
+h3 {
+  color: rgb(163, 64, 138);
+  padding-left: 15px;
+}

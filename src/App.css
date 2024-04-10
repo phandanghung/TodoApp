@@ -1,38 +1,41 @@
+body {
+  background-image: linear-gradient(to bottom,#09f157, #14e6f5);
+}
 .App {
-  text-align: center;
+  position: relative;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo-App {
+  margin-top: 10rem;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo-App h1 {
+  padding: 30px;
+  color: #fff;
+  font-family: "Protest Guerrilla", sans-serif;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.logo-App h2 {
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.logo-App h5 {
+  padding: 0 170px;
+  font-family: "Mr Dafoe", cursive;
+  color: white;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+h1.w-3 {
+  font-size: 70px;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+h2.w-3 {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+}
+.todolist-content{
+  margin: 145px 0px;
+}
+@media (max-width: 600px) {
+  .todolist-content {
+    margin: 0px 0px 231px 0px;
   }
 }
